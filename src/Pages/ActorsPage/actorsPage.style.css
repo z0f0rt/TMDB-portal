@@ -1,0 +1,20 @@
+.list-actors-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination-actors {
+  margin-left: 37%;
+  margin-right: 37%;
+  border-radius: 15px;
+}
+.list-actors-page {
+  background-image: url("../../images/fire.jpg");
+}
+.params-actors {
+  margin-left: 120px;
+}

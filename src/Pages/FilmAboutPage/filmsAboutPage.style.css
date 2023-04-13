@@ -1,0 +1,9 @@
+.movie-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.background-films{
+  background-image: url("../../images/fire.jpg");
+}
