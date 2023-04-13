@@ -18,8 +18,12 @@
     "uuid": "^9.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start-react": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "start-tailwind": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "npm-run-all --parallel start-react start-tailwind"
   },
   "eslintConfig": {
     "extends": [
